@@ -27,7 +27,7 @@ public class TicketController {
 		return new  ResponseEntity<Ticket>(bookTicket,HttpStatus.OK);
 
 	}
-@GetMapping(value="/test",produces= "application/json",consumes="application/json")
+@GetMapping("/test")
 	public ResponseEntity<String>test(){
 		
 		
