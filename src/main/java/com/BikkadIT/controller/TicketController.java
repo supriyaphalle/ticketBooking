@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.GostMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import com.BikkadIT.reponseBinding.Ticket;
 import com.BikkadIT.requestBinding.Passanger;
